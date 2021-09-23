@@ -1,0 +1,36 @@
+@import url(presentation.css);
+
+/* play_lg from presentation section */
+
+.details {
+    margin: 10px 0 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.details__item {
+    position: relative;
+    width: 300px;
+    height: 232px;
+}
+
+.details__item:first-of-type {
+    margin-left: 13px;
+    background-color: #ec9e03;
+}
+
+.details__item:last-of-type {
+    margin-right: 13px;
+    background-color: #ec9e03;
+}
+
+.details__item-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.details__item-btn {
+    width: 62px;
+}

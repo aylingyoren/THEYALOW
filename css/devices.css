@@ -1,0 +1,48 @@
+.devices {
+    background-color: #474747;
+}
+
+h2 {
+    margin-top: 0; /* gotta find out */
+    padding-top: 43px;
+    font-size: 39px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f5c506;
+}
+
+.devices__items {
+    display: flex;
+    gap: 25px;
+}
+
+.computer {
+    margin-left: 57px;
+    position: relative;
+}
+
+.tablet {
+    margin-top: 42px;
+}
+
+.phone {
+    margin-top: 151px;
+}
+
+.devices__item-badge {
+    position: relative;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+    background-color: #f5c506;
+}
+
+.devices__item-badge span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+}

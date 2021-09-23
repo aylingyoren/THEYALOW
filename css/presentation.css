@@ -1,0 +1,37 @@
+.presentation__item {
+    position: relative;
+}
+
+.play_lg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.presentation__item-btn {
+    width: 68px;
+}
+
+.presentation__item-controls {
+    position: absolute;
+    bottom: 0;
+    left: 10%; /* temporary */
+    /* display: flex;
+    justify-content: space-around;
+    align-content: center; */
+}
+
+.play-square {
+    margin-bottom: 22px;
+    margin-right: 21px;
+}
+
+.timer {
+    margin-bottom: 29px;
+    margin-right: 31px;
+}
+
+.speaker {
+    margin-bottom: 27px;
+}

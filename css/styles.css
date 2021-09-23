@@ -1,0 +1,19 @@
+@import url(header.css);
+@import url(presentation.css);
+@import url(features.css);
+@import url(details.css);
+@import url(twitter.css);
+@import url(devices.css);
+
+* {
+   box-sizing: border-box;
+}
+
+section {
+   width: 640px; /* temporary */
+}
+
+.container {
+   width: 640px;  /* temporary */
+   margin: 12px;
+}

@@ -4,77 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>THEYALOW</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header__logo">
-                <div class="header__logo-img"></div>
-                <div class="header__logo-text">THEYALOW</div>
+        <div class="header__item header__logo">
+            <div class="header__logo-img">
+                <img src="/img/logo.png" alt="logo">
             </div>
-            <nav>
-                <div class="nav__item">
-                    <div class="nav__item-icon"></div>
-                    <div class="nav__item-text">ABOUT US</div>
-                </div>
-                <div class="nav__item">
-                    <div class="nav__item-icon"></div>
-                    <div class="nav__item-text">SERVICES</div>
-                </div>
-                <div class="nav__item">
-                    <div class="nav__item-icon"></div>
-                    <div class="nav__item-text">CONTACT</div>
-                </div>
-            </nav>
+            <div class="header__logo-text">THEYALOW</div>
         </div>
+        <nav class="header__item">
+            <div class="nav__item">
+                <div class="nav__item-icon">
+                    <img src="/img/icon/about.png" alt="about us">
+                </div>
+                <div class="nav__item-text">ABOUT US</div>
+            </div>
+            <div class="nav__item">
+                <div class="nav__item-icon">
+                    <img src="/img/icon/services.png" alt="services">
+                </div>
+                <div class="nav__item-text">SERVICES</div>
+            </div>
+            <div class="nav__item">
+                <div class="nav__item-icon">
+                    <img src="/img/icon/contact.png" alt="contact">
+                </div>
+                <div class="nav__item-text">CONTACT</div>
+            </div>
+        </nav>
     </header>
 
     <section class="presentation">
-        <div class="container">
-            <div class="presentation__item">
-                <div class="presentation__item-video"></div>
+        <div class="presentation__item">
+            <img src="/img/birds.jpg" alt="video with birds">
+            <img class="play_lg presentation__item-btn" src="/img/icon/play_lg.png" alt="play">
+            <div class="presentation__item-controls">
+                <img class="play-square" src="/img/icon/play-square.png" alt="play video">
+                <img class="timer" src="/img/icon/timer.png" alt="time left">
+                <img class="speaker" src="/img/icon/speaker.png" alt="speaker">
             </div>
         </div>
+        
     </section>
 
     <section class="features">
-        <div class="container">
-            <div class="features__item">
-                <div class="features__item-icon"></div>
-                <div class="features__item-text">BETTER DESIGN</div>
+        <div class="features__item">
+            <div class="features__item-icon">
+                <img src="/img/icon/better-design.png" alt="better design">
             </div>
-            <div class="features__item">
-                <div class="features__item-icon"></div>
-                <div class="features__item-text">CUSTOMIZE</div>
+            <div class="features__item-text">BETTER DESIGN</div>
+        </div>
+        <div class="features__item">
+            <div class="features__item-icon">
+                <img src="/img/icon/customize.png" alt="customize">
             </div>
-            <div class="features__item">
-                <div class="features__item-icon"></div>
-                <div class="features__item-text">FREE</div>
+            <div class="features__item-text">CUSTOMIZE</div>
+        </div>
+        <div class="features__item">
+            <div class="features__item-icon">
+                <img src="/img/icon/free.png" alt="free">
             </div>
+            <div class="features__item-text">IT'S FREE</div>
         </div>
     </section>
 
     <section class="details">
-        <div class="container">
-            <div class="details__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem et, aspernatur voluptatum mollitia consequatur in.</div>
-        <div class="details__video"></div>
+        <div class="details__item">
+            <p class="details__item-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem et, aspernatur voluptatum mollitia consequatur in.
+            </p>
+        </div>
+        <div class="details__item">
+            <img class="details__item-video" src="/img/monkey-n-man.jpg" alt="video with monkey in white hat and man">
+            <img class="play_lg details__item-btn" src="/img/icon/play_lg.png" alt="play">
         </div>
     </section>
     <section class="twitter">
-        <div class="container">
-            <div class="twitter__background"></div>
-        </div>
+        <img class="twitter__icon" src="/img/icon/twitter.png" alt="twitter icon">
     </section>
     <section class="devices">
-        <div class="container">
-            <h2 class="devices__heading">Lorem ipsum dolor sit, amet</h2>
+        <h2 class="devices__heading">Lorem ipsum dolor sit amet</h2>
+        <div class="devices__items">
             <div class="devices__item">
-                <div class="devices__item-badge"></div>
+                <img class="computer" src="/img/computer.png" alt="computer">
+                <div class="devices__item-badge">
+                    <span>it's 100% free</span>
+                </div>
             </div>
-            <div class="devices__item"></div>
-            <div class="devices__item"></div>
+            <div class="devices__item">
+                <img class="tablet" src="/img/tablet.png" alt="tablet">
+            </div>
+            <div class="devices__item">
+                <img class="phone" src="/img/phone.png" alt="phone">
+            </div>
         </div>
     </section>
     <footer>
