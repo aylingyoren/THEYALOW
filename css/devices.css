@@ -1,24 +1,26 @@
 .devices {
+    padding-top: 30px;
     background-color: #474747;
 }
 
 h2 {
-    margin-top: 0; /* gotta find out */
-    padding-top: 43px;
+    margin-top: 0;
     font-size: 39px;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     color: #f5c506;
 }
 
 .devices__items {
+    padding-top: 30px;
+    padding-bottom: 55px;
     display: flex;
     gap: 25px;
 }
 
 .computer {
     margin-left: 57px;
-    position: relative;
 }
 
 .tablet {
@@ -27,6 +29,16 @@ h2 {
 
 .phone {
     margin-top: 151px;
+}
+
+.badge-holder {
+    position: relative;
+}
+
+.devices__item-badge-wrap {
+    position: absolute;
+    top: -35px;
+    left: 27px;
 }
 
 .devices__item-badge {
@@ -42,7 +54,10 @@ h2 {
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%,-50%);
+    width: 105px;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    font-size: 10px;
+    font-size: 19px; /* temporary */
+    color: #ffffff;
 }

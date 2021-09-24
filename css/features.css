@@ -19,3 +19,8 @@
     gap: 26px;
     margin-top: 40px;
 }
+
+.features__item-text {
+    font-size: 23px;
+    font-weight: 300;
+}

@@ -16,6 +16,7 @@
 
 .details__item:first-of-type {
     margin-left: 13px;
+    overflow: hidden;
     background-color: #ec9e03;
 }
 
@@ -27,8 +28,23 @@
 .details__item-text {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 38%;
     -webkit-transform: translate(-50%,-50%);
+    width: 235px;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+span.plus {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .details__item-btn {

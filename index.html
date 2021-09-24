@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <title>THEYALOW</title>
@@ -74,8 +74,9 @@
     <section class="details">
         <div class="details__item">
             <p class="details__item-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem et, aspernatur voluptatum mollitia consequatur in.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem et, aspernatur.
             </p>
+            <span class="plus">+</span>
         </div>
         <div class="details__item">
             <img class="details__item-video" src="/img/monkey-n-man.jpg" alt="video with monkey in white hat and man">
@@ -83,15 +84,17 @@
         </div>
     </section>
     <section class="twitter">
-        <img class="twitter__icon" src="/img/icon/twitter.png" alt="twitter icon">
+        <img class="twitter__icon" src="/img/icon/twitter.svg" alt="twitter icon">
     </section>
     <section class="devices">
         <h2 class="devices__heading">Lorem ipsum dolor sit amet</h2>
         <div class="devices__items">
-            <div class="devices__item">
+            <div class="devices__item badge-holder">
                 <img class="computer" src="/img/computer.png" alt="computer">
-                <div class="devices__item-badge">
-                    <span>it's 100% free</span>
+                <div class="devices__item-badge-wrap">
+                    <div class="devices__item-badge">
+                        <span>it's 100% free</span>
+                    </div>
                 </div>
             </div>
             <div class="devices__item">
@@ -103,11 +106,12 @@
         </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="footer__logo">
-                <div class="footer__logo-item"></div>
-                <div class="footer__logo-text">THEYALOW</div>
+        <div class="footer_gradient"></div>
+        <div class="footer__logo">
+            <div class="footer__logo-item">
+                <img src="/img/logo.png" alt="logo">
             </div>
+            <div class="footer__logo-text">THEYALOW</div>
         </div>
     </footer>
 </body>

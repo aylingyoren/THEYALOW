@@ -4,16 +4,63 @@
 @import url(details.css);
 @import url(twitter.css);
 @import url(devices.css);
+@import url(footer.css);
 
 * {
    box-sizing: border-box;
 }
 
-section {
-   width: 640px; /* temporary */
+html {
+   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-   width: 640px;  /* temporary */
-   margin: 12px;
+/* @media (min-width: 320px) and (max-width: 640px) {
+   header, section, footer {
+      width: 640px;
+   }
+} */
+
+header, section, footer {
+   width: 640px;
+}
+
+/* @media (min-width: 641px) {
+   header, section, footer {
+      min-width: 1300px;
+   }
+} */
+
+
+
+
+
+@font-face {
+   font-family: 'Open Sans';
+   src: url(/fonts/OpenSans-Light.ttf);
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src: url(/fonts/OpenSans-Regular.ttf);
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src: url(/fonts/OpenSans-Medium.ttf);
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src: url(/fonts/OpenSans-MediumItalic.ttf);
+   font-weight: 500;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src: url(/fonts/OpenSans-SemiBold.ttf);
+   font-weight: 600;
 }
