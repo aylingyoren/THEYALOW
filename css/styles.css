@@ -7,11 +7,21 @@
 @import url(footer.css);
 
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-   font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* @media (min-width: 320px) and (max-width: 640px) {
@@ -20,8 +30,10 @@ html {
    }
 } */
 
-header, section, footer {
-   width: 640px;
+header,
+section,
+footer {
+  width: 640px;
 }
 
 /* @media (min-width: 641px) {
@@ -30,37 +42,33 @@ header, section, footer {
    }
 } */
 
-
-
-
-
 @font-face {
-   font-family: 'Open Sans';
-   src: url(/fonts/OpenSans-Light.ttf);
-   font-weight: 300;
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-Light.ttf);
+  font-weight: 300;
 }
 
 @font-face {
-   font-family: 'Open Sans';
-   src: url(/fonts/OpenSans-Regular.ttf);
-   font-weight: 400;
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
 }
 
 @font-face {
-   font-family: 'Open Sans';
-   src: url(/fonts/OpenSans-Medium.ttf);
-   font-weight: 500;
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
 }
 
 @font-face {
-   font-family: 'Open Sans';
-   src: url(/fonts/OpenSans-MediumItalic.ttf);
-   font-weight: 500;
-   font-style: italic;
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-   font-family: 'Open Sans';
-   src: url(/fonts/OpenSans-SemiBold.ttf);
-   font-weight: 600;
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 600;
 }
