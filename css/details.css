@@ -54,4 +54,11 @@ span.plus {
 
 .details__item-btn {
   width: 62px;
+  height: 62px;
+}
+
+.details__item-btn::after {
+  border-top: 17px solid transparent;
+  border-left: 17px solid #ffffff;
+  border-bottom: 17px solid transparent;
 }
