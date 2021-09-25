@@ -1,0 +1,169 @@
+@media (max-width: 1039px) {
+  header,
+  footer {
+    width: 640px;
+  }
+
+  .container {
+    width: 640px;
+    margin: 0 auto;
+    /* margin: 2px auto 0 auto; */
+  }
+
+  .main,
+  .details__heading,
+  .details__item:last-of-type,
+  .devices__item:last-of-type {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header__logo a {
+    padding: 9px 18px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#5d5d5d, #505050, #434343);
+  }
+
+  .header__logo-img {
+    width: 40px;
+  }
+
+  .nav__item {
+    padding: 16px 15px;
+  }
+
+  .features .container {
+    background: url(/img/features-bg.jpg);
+  }
+
+  .details,
+  .details .container {
+    background-color: #ffffff;
+  }
+
+  .twitter {
+    min-width: 640px;
+  }
+}
+
+/* ____________________________________________ */
+
+@media (min-width: 1040px) {
+  .header,
+  .presentation-640,
+  .twitter {
+    display: none;
+  }
+
+  .main {
+    background: url(/img/main-bg.jpg) center/cover no-repeat;
+  }
+
+  .container {
+    width: 1018px;
+    margin: 0 auto;
+  }
+
+  .features {
+    background: url(/img/features-bg.jpg);
+  }
+
+  .details {
+    background: url(/img/details-bg.jpg);
+  }
+
+  .details__heading {
+    position: relative;
+    margin: 0;
+    left: 4%;
+    padding-top: 42px;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+  .details__items {
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+  }
+
+  .details__item {
+    margin: 68px 0 167px 0;
+  }
+
+  .details__item:first-of-type {
+    position: relative;
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  .details__item:last-of-type {
+    margin-left: 30px;
+    margin-right: 0;
+  }
+
+  .details__item-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    margin: 0;
+    /* padding: 0; */
+    font-size: 29px;
+    line-height: 38px;
+  }
+
+  .twitter__text {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .devices__items {
+    padding-bottom: 80px;
+  }
+
+  .devices__item:last-of-type {
+  }
+
+  ul.pros__list {
+    list-style: none;
+    padding-left: 80px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #a9a9a7;
+    font-weight: 400;
+  }
+
+  .pros__list li {
+    margin-bottom: 15px;
+  }
+
+  .pros__list li::before {
+    content: "\2022";
+    font-size: 50px;
+    display: inline-block;
+    margin-left: -10px;
+    width: 30px;
+    color: #f5c506;
+  }
+
+  footer {
+    height: 65px;
+  }
+
+  .footer__logo-text {
+    font-size: 29px;
+  }
+
+  .footer__logo-item img {
+    width: 54px;
+  }
+}

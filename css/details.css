@@ -2,8 +2,8 @@
 
 /* play_lg from presentation section */
 
-.details {
-  margin: 10px 0 10px;
+.details__items {
+  padding: 10px 0 10px;
   display: flex;
   gap: 15px;
 }
@@ -25,17 +25,20 @@
   background-color: #ec9e03;
 }
 
+.details__item-text,
+.twitter__text {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #ffffff;
+}
+
 .details__item-text {
   position: absolute;
   left: 50%;
   top: 38%;
   -webkit-transform: translate(-50%, -50%);
   width: 235px;
-  overflow: hidden;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 33px;
-  color: #ffffff;
 }
 
 span.plus {

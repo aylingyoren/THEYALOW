@@ -8,8 +8,7 @@
   align-items: center;
   gap: 30px;
   bottom: 22px;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%); /* temporary */
+  left: 10%; /* temporary */
 }
 
 .timer {

@@ -5,6 +5,7 @@
 @import url(twitter.css);
 @import url(devices.css);
 @import url(footer.css);
+@import url(media-queries.css);
 
 * {
   box-sizing: border-box;
@@ -14,33 +15,14 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-ul {
-  list-style-type: none;
+body {
   margin: 0;
-  padding: 0;
+  background-color: #474747;
 }
 
 a {
   text-decoration: none;
 }
-
-/* @media (min-width: 320px) and (max-width: 640px) {
-   header, section, footer {
-      width: 640px;
-   }
-} */
-
-header,
-section,
-footer {
-  width: 640px;
-}
-
-/* @media (min-width: 641px) {
-   header, section, footer {
-      min-width: 1300px;
-   }
-} */
 
 @font-face {
   font-family: "Open Sans";

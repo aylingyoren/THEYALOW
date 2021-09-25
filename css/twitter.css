@@ -1,15 +1,12 @@
 .twitter {
-    position: relative;
-    height: 233px;
-    background-color: #f5c507;
+  position: relative;
+  height: 233px;
+  background-color: #f5c507;
 }
 
 .twitter__icon {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
 }
-
-/* height: 133px;
-width: 159px; */

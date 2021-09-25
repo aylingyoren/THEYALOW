@@ -9,14 +9,14 @@
   </head>
   <body>
     <header class="header">
+      <div class="header__logo">
+        <a class="header__logo-text" href="#">
+          <img class="header__logo-img" src="/img/logo.png" alt="logo" />
+          <span>THEYALOW</span>
+        </a>
+      </div>
       <nav>
-        <ul>
-          <li class="nav__item header__logo">
-            <a class="header__logo-text" href="#">
-              <img class="header__logo-img" src="/img/logo.png" alt="logo" />
-              <span>THEYALOW</span>
-            </a>
-          </li>
+        <ul class="nav-1300">
           <li class="nav__item nav-bg">
             <a class="nav__item-text" href="#"
               ><img
@@ -51,56 +51,87 @@
       </nav>
     </header>
 
-    <section class="presentation">
-      <div class="presentation__item">
-        <img src="/img/birds.jpg" alt="video with birds" />
-        <div class="play_lg"></div>
-        <div class="presentation__item-controls">
-          <div class="play-square"></div>
-          <div class="timer"></div>
-          <img class="speaker" src="/img/icon/megaphone.svg" alt="speaker" />
+    <section class="main">
+      <div class="container">
+        <div class="header__logo">
+          <a class="header__logo-text" href="#">
+            <img class="header__logo-img" src="/img/logo.png" alt="logo" />
+            <span>THEYALOW</span>
+          </a>
         </div>
       </div>
     </section>
 
+    <div class="container">
+      <section class="presentation-640">
+        <div class="presentation__item">
+          <img class="bg-640" src="/img/birds.jpg" alt="video with birds" />
+
+          <div class="play_lg"></div>
+          <div class="presentation__item-controls">
+            <div class="play-square"></div>
+            <div class="timer"></div>
+            <img class="speaker" src="/img/icon/megaphone.svg" alt="speaker" />
+          </div>
+        </div>
+      </section>
+    </div>
+
     <section class="features">
-      <div class="features__item">
-        <div class="features__item-icon">
-          <img src="/img/icon/better-design.png" alt="better design" />
+      <div class="container">
+        <div class="features__item">
+          <div class="features__item-icon">
+            <img src="/img/icon/better-design.png" alt="better design" />
+          </div>
+          <div class="features__item-text">BETTER DESIGN</div>
         </div>
-        <div class="features__item-text">BETTER DESIGN</div>
-      </div>
-      <div class="features__item">
-        <div class="features__item-icon">
-          <img src="/img/icon/customize.png" alt="customize" />
+        <div class="features__item">
+          <div class="features__item-icon">
+            <img src="/img/icon/customize.png" alt="customize" />
+          </div>
+          <div class="features__item-text">CUSTOMIZE</div>
         </div>
-        <div class="features__item-text">CUSTOMIZE</div>
-      </div>
-      <div class="features__item">
-        <div class="features__item-icon">
-          <img src="/img/icon/free.png" alt="free" />
+        <div class="features__item">
+          <div class="features__item-icon">
+            <img src="/img/icon/free.png" alt="free" />
+          </div>
+          <div class="features__item-text">IT'S FREE</div>
         </div>
-        <div class="features__item-text">IT'S FREE</div>
       </div>
     </section>
 
     <section class="details">
-      <div class="details__item">
-        <p class="details__item-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem et,
-          aspernatur.
-        </p>
-        <span class="plus">+</span>
-      </div>
-      <div class="details__item">
-        <img
-          class="details__item-video"
-          src="/img/monkey-n-man.jpg"
-          alt="video with monkey in white hat and man"
-        />
-        <div class="play_lg details__item-btn"></div>
+      <div class="container">
+        <h2 class="details__heading">Lorem ipsum dolor sit amet</h2>
+        <div class="details__items">
+          <div class="details__item">
+            <p class="details__item-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+              et, aspernatur.
+            </p>
+            <span class="plus">+</span>
+          </div>
+          <div class="details__item">
+            <img
+              class="details__item-video"
+              src="/img/monkey-n-man.jpg"
+              alt="video with monkey in white hat and man"
+            />
+            <div class="play_lg details__item-btn"></div>
+          </div>
+          <div class="details__item">
+            <img
+              class="twitter__icon"
+              src="/img/icon/twitter.svg"
+              alt="twitter icon"
+            />
+            <span class="twitter__text">22</span>
+            <span class="plus">+</span>
+          </div>
+        </div>
       </div>
     </section>
+
     <section class="twitter">
       <img
         class="twitter__icon"
@@ -108,32 +139,50 @@
         alt="twitter icon"
       />
     </section>
+
     <section class="devices">
-      <h2 class="devices__heading">Lorem ipsum dolor sit amet</h2>
-      <div class="devices__items">
-        <div class="devices__item badge-holder">
-          <img class="computer" src="/img/computer.png" alt="computer" />
-          <div class="devices__item-badge-wrap">
-            <div class="devices__item-badge">
-              <span>it's 100% free</span>
+      <div class="container">
+        <h2 class="devices__heading">Lorem ipsum dolor sit amet</h2>
+        <div class="devices__items">
+          <div class="devices__item badge-holder">
+            <img class="computer" src="/img/computer.png" alt="computer" />
+            <div class="devices__item-badge-wrap">
+              <div class="devices__item-badge">
+                <span>it's 100% free</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="devices__item">
-          <img class="tablet" src="/img/tablet.png" alt="tablet" />
-        </div>
-        <div class="devices__item">
-          <img class="phone" src="/img/phone.png" alt="phone" />
+          <div class="devices__item">
+            <img class="tablet" src="/img/tablet.png" alt="tablet" />
+          </div>
+          <div class="devices__item">
+            <img class="phone" src="/img/phone.png" alt="phone" />
+          </div>
+          <div class="devices__item pros">
+            <ul class="pros__list">
+              <li class="pros__list-item">Lorem ipsum dolor sit amet.</li>
+              <li class="pros__list-item">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </li>
+              <li class="pros__list-item">Lorem ipsum dolor sit amet.</li>
+              <li class="pros__list-item">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+
     <footer class="footer">
       <div class="footer_gradient"></div>
-      <div class="footer__logo">
-        <div class="footer__logo-item">
-          <img src="/img/logo.png" alt="logo" />
+      <div class="container">
+        <div class="footer__logo">
+          <div class="footer__logo-item">
+            <img src="/img/logo.png" alt="logo" />
+          </div>
+          <div class="footer__logo-text">THEYALOW</div>
         </div>
-        <div class="footer__logo-text">THEYALOW</div>
       </div>
     </footer>
   </body>
