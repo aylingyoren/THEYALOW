@@ -89,6 +89,22 @@
     background: url(/img/features-bg.jpg);
   }
 
+  .features__item-text {
+    font-size: 27px;
+  }
+
+  .features__item-icon img.cloud {
+    width: 110px;
+  }
+
+  .features__item-icon img.leave {
+    width: 95px;
+  }
+
+  .features__item-icon img.tg {
+    width: 83px;
+  }
+
   .details {
     background: url(/img/details-bg.jpg);
   }
@@ -97,7 +113,7 @@
     position: relative;
     margin: 0;
     left: 4%;
-    padding-top: 42px;
+    padding-top: 35px;
     font-size: 37px;
     text-transform: uppercase;
     color: #ffffff;
@@ -111,7 +127,7 @@
   }
 
   .details__item {
-    margin: 68px 0 167px 0;
+    margin: 33px 0 167px 0;
   }
 
   .details__item:first-of-type {
@@ -127,13 +143,15 @@
 
   .details__item-text {
     position: absolute;
-    top: 60%;
+    top: 52%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     margin: 0;
     /* padding: 0; */
     font-size: 29px;
     line-height: 38px;
+    height: 200px;
+    overflow: hidden;
   }
 
   .twitter__text {
@@ -146,12 +164,15 @@
     padding-bottom: 80px;
   }
 
-  .devices__item:last-of-type {
+  .devices__heading {
+    letter-spacing: 1px;
   }
 
   ul.pros__list {
-    list-style: none;
-    padding-left: 80px;
+    list-style-image: url(../img/icon/list-bullet.svg); /* Путь к рисунку для установки маркера */
+    list-style-position: outside; /* Маркер не обтекается текстом */
+    /* list-style: none; */
+    padding-left: 40px;
     font-size: 22px;
     line-height: 22px;
     color: #a9a9a7;
@@ -160,8 +181,10 @@
 
   .pros__list li {
     margin-bottom: 15px;
+    padding-left: 20px;
   }
 
+  /* styling list wd pseudoel
   .pros__list li::before {
     content: "\2022";
     font-size: 50px;
@@ -169,10 +192,10 @@
     margin-left: -10px;
     width: 30px;
     color: #f5c506;
-  }
+  } */
 
-  footer {
-    height: 65px;
+  .footer {
+    height: 75px;
   }
 
   .footer__logo-text {

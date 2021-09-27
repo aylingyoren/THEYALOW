@@ -56,6 +56,14 @@ ul.nav-items {
   margin-right: 11px;
 }
 
+.nav__item-text span {
+  margin-left: 11px;
+}
+
+.hovhov:hover {
+  fill: #463907;
+}
+
 .nav__item-text {
   font-size: 19px;
   color: #9b7d08;
