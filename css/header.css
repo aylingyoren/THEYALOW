@@ -3,7 +3,7 @@
   box-shadow: 0 4px 2px -2px black;
 }
 
-ul.nav-1300 {
+ul.nav-items {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,12 +28,12 @@ ul.nav-1300 {
   margin-right: 8px;
 }
 
-.header__logo-text {
+.header__logo-text, .logo__text {
   font-weight: 500;
   font-style: italic;
   font-size: 19px;
   color: #ffffff;
-  filter: drop-shadow(1px 1.732px 0px rgba(0, 0, 0, 0.42));
+  filter: drop-shadow(1px 1.732px 5px rgba(0, 0, 0, 0.42));
 }
 
 .header__logo-text:hover {

@@ -6,6 +6,7 @@
 
 .footer_gradient {
   height: 7px;
+  width: 100%;
   background: linear-gradient(#474747, #000000);
 }
 

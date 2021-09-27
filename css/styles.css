@@ -6,6 +6,7 @@
 @import url(devices.css);
 @import url(footer.css);
 @import url(media-queries.css);
+@import url(main.css);
 
 * {
   box-sizing: border-box;
