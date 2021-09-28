@@ -45,7 +45,6 @@
 .play-square::after {
   content: "";
   display: block;
-  /* border-radius: 3px; */
   position: relative;
   z-index: 1;
   left: 55%;
@@ -85,7 +84,6 @@
 .play_lg::after {
   content: "";
   display: block;
-  /* border-radius: 5px; */
   position: relative;
   z-index: 1;
   left: 55%;

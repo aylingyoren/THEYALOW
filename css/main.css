@@ -1,13 +1,12 @@
 @media (min-width: 1040px) {
     
   .main {
-    background: url(/img/main-bg.jpg) center/cover no-repeat;
+    background: url(img/main-bg.jpg) center/cover no-repeat;
     padding-bottom: 458px;
   }
 
   .logo {
       padding-top: 30px;
-      /* padding-left: 30px; */
   }
   
   a.logo__items {
@@ -74,7 +73,6 @@
       right: 20px;
       margin-top: 127px;
       margin-bottom: 146px;
-      /* top: 200px; */
       font-size: 63px;
       font-weight: 400;
       line-height: 77px;
